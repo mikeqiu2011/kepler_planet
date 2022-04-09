@@ -1,0 +1,23 @@
+{
+  "name": "kepler_planet",
+  "version": "1.0.0",
+  "description": "## data source     https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeqiu2011/kepler_planet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeqiu2011/kepler_planet/issues"
+  },
+  "homepage": "https://github.com/mikeqiu2011/kepler_planet#readme",
+  "dependencies": {
+    "csv-parse": "^5.0.4"
+  }
+}
