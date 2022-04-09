@@ -4,6 +4,10 @@ const fs = require('fs')
 const results = []
 
 fs.createReadStream('kepler_data.csv')
+    .pipe(parse({ // readableStream.pipe(writebaseStream)
+        comment: '#',
+        columns: true
+    }))
     .on('data', (chunk) => {
         results.push(chunk)
     })
